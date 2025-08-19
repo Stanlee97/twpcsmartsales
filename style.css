@@ -1,0 +1,35 @@
+ .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .form-shadow {
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .animate-pulse {
+            animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.5;
+            }
+        }
+
+        .cards {
+  display: flex;
+  flex-direction: column; /* stack on mobile */
+  gap: 1rem;
+}
+
+/* @media (min-width: 768px) {
+  .cards {
+    flex-direction: row; /* side by side on bigger screens */
+  
+
+.form-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    width: 90%;   /* instead of 1200px */
+  max-width: 1200px;
+  margin: auto;
+}
